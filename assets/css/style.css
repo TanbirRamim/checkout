@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.intro {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5%;
+}
+.left-width {
+  width: 50%;
+  margin-right: 30px;
+}
+.left-width h1 {
+  font-size: 60px;
+  font-weight: 700px;
+  border-left: 5px solid #ffb3b3;
+  margin-bottom: 35px;
+  font-family: "Oswald", sans-serif;
+}
+.colored-text {
+  color: #a65959;
+  margin-top: 10px;
+}
+p {
+  font-size: 22px;
+  margin: 8px;
+  font-family: "Prompt", sans-serif;
+}
+.button {
+  text-decoration: none;
+  font-weight: 700px;
+  color: #e4dfe8;
+  background-image: linear-gradient(#823eb0, #433a4a);
+  padding: 10px 35px;
+  border-radius: 3px;
+  margin: 20px 0px;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 1px;
+}
+.right-width img {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+}
+.heading h1 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700px;
+
+  margin-bottom: 35px;
+  font-family: "Oswald", sans-serif;
+}
+.mission {
+  display: flex;
+  justify-items: flex-start;
+  margin-left: 200px;
+}
+.mivigo {
+  background-color: beige;
+  margin: 20px 20px 200px;
+  border-radius: 20px;
+  width: 27%;
+}
+.mivigo h3 {
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+  padding-left: 25px;
+}
+.mivigo p {
+  padding-left: 25px;
+
+  word-spacing: normal;
+}
+.mivigo img {
+  height: 200px;
+  width: 180px;
+}
+.development {
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url(../images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: contain;
+}
+.right-side {
+  width: 50%;
+}
+.right-side h1 {
+  font-size: 60px;
+  font-weight: 700px;
+  margin-top: 50px;
+  font-family: "Oswald", sans-serif;
+}
+.left-side img {
+  height: 450px;
+  width: 450px;
+}
+.right-side p {
+  margin-bottom: 20px;
+}
+.community {
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url(../images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: contain;
+  margin-top: 100px;
+}
+.left-content {
+  width: 50%;
+}
+.left-content h1 {
+  font-size: 60px;
+  font-weight: 700px;
+  margin-top: 50px;
+  font-family: "Oswald", sans-serif;
+}
+.left-content p {
+  margin-bottom: 20px;
+}
+.right-content img {
+  height: 450px;
+  width: 450px;
+}
+
+.members {
+  display: flex;
+}
+.team {
+  width: 33%;
+  padding: 30px 0px;
+  float: left;
+  border: 1px solid white;
+}
+.team img {
+  width: 200px;
+  height: 200px;
+
+  display: block;
+  margin: 0px auto;
+}
+.team h2 {
+  text-align: center;
+  color: burlywood;
+}
+.team p {
+  text-align: center;
+  color: cadetblue;
+  margin: auto;
+}
+.endline {
+  background-color: black;
+}
+.endline h1 {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+.endline p {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 50px;
+  margin: 0;
+}
